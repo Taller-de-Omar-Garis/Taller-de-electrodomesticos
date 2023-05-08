@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taller de Omar Garis</title>
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <div class="Logo">
+            <img class="logopiola" src="IMG/logopiola.png">
+            <h1>Taller de lavarropas, Microondas, <br> Lavavajillas, cocinas...
+            </h1>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="metodologia.html">Metodología de trabajo</a></li>
+            <li><a class="active" href="arreglos.html">Algunas de nuestras reparaciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="titulo2">
+            <a class="b-volver" href="arreglos.html">🡸 Volver al menú</a>
+            <br><br><br><br>
+            <h1 class="h1"><span>Trabajos realizados</span></h1>
+            <h6>(Tocar el video deseado para verlo en pantalla completa y con sonido)</h6>
+        </div>
+
+        <div class="video-container">
+            <div><video src="media/2.mp4" muted autoplay></video></div>
+            <div><video src="media/3.mp4" muted autoplay></video></div>
+            <div><video src="media/4.mp4" muted autoplay></video></div>
+            <div><video src="media/5.mp4" muted autoplay></video></div>
+            <div><video src="media/6.mp4" muted autoplay></video></div>
+            <div><video src="media/7.mp4" muted autoplay></video></div>
+            <div><video src="media/8.mp4" muted autoplay></video></div>
+            <div id="video"><video src="media/1.mp4" muted autoplay></video></div>
+        </div>
+        <div class="popup-video">
+            <span>&times;</span>
+            <video src="media/1.mp4" autoplay controls></video>
+        </div>
+    </div>
+    
+    <script>
+        document.querySelectorAll('.video-container video').forEach(vid => {
+            vid.onclick = () =>{
+                document.querySelector('.popup-video').style.display = 'block';
+                document.querySelector('.popup-video video').src = vid.getAttribute('src');
+            }
+        })
+        
+        document.querySelector('.popup-video span').onclick = () =>{
+            document.querySelector('.popup-video').style.display = 'none';
+        }
+
+    </script>
+
+    <footer>
+        <p>¡Bienvenido a nuestro taller de reparaciones de electrodomésticos! En nuestro taller, nos especializamos en la reparación de lavarropas, microondas, lavavajillas y cocinas,
+            y estamos comprometidos en brindar un servicio de alta calidad a todos nuestros clientes. Sabemos lo importante que son estos electrodomésticos en tu hogar y lo frustrante
+            que puede ser cuando se descomponen, por lo que estamos aquí para ayudarte a solucionar cualquier problema que puedas tener.
+            Además, te ofrecemos un servicio personalizado de asesoramiento en línea, donde puedes contactarnos directamente para obtener ayuda y asesoramiento para la reparación de 
+            tus electrodomésticos.
+            En nuestro taller, utilizamos equipos y herramientas de alta calidad para garantizar que tus electrodomésticos estén funcionando de 
+            manera óptima. Estamos comprometidos en brindarte un servicio rápido, eficiente y a precios competitivos.
+            Si tienes alguna pregunta o necesitas ayuda con la reparación de tus electrodomésticos, no dudes en ponerte en contacto con nosotros. Estaremos encantados de ayudarte en 
+            todo lo que necesites. ¡Gracias por visitarnos y esperamos verte pronto!</p>
+
+        <p>Pagina web realizada por:<br>
+            Gonzalo Peralta<br></p>
+        
+        <div class="redes">
+            <ul>
+                <li class="instagram"><a href="https://instagram.com/_gonza_peralta_?igshid=ZGUzMzM3NWJiOQ==" target="_newblank"><i class="fa fa-instagram fa-2x" ></i></a></li>
+                <li class="google"><a href="mailto:gonchoperalta10@gmail.com"><i class="fa fa-google fa-2x" ></i></a></li>
+                <li class="whatsapp"><a href="https://wa.link/qg7zh4" target="_newblank"><i class="fa fa-whatsapp fa-2x" ></i></a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+</html>
