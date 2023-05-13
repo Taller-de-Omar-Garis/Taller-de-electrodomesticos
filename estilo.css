@@ -647,32 +647,32 @@ h1 span{
         margin-top: 20px;
         transition: all 0.5s ease;
     }
-    .redes ul li.instagram{
+    .redes ul li:hover.instagram{
         border: 5px solid #bc2a8d;
         box-shadow: 0 0 15px #bc2a8d;
         transition: all 0.5s ease;
     }
-    .redes ul li .fa-instagram{
+    .redes ul li:hover .fa-instagram{
         color: #bc2a8d;
         text-shadow: 0 0 15px #bc2a8d;
         transition: all 0.5s ease;
     }
-    .redes ul li.google{
+    .redes ul li:hover.google{
         border: 5px solid #dd4b39;
         box-shadow: 0 0 15px #dd4b39;
         transition: all 0.5s ease;
     }
-    .redes ul li .fa-google{
+    .redes ul li:hover .fa-google{
         color: #dd4b39;
         text-shadow: 0 0 15px #dd4b39;
         transition: all 0.5s ease;
     }
-    .redes ul li.whatsapp{
+    .redes ul li:hover.whatsapp{
         border: 5px solid #4dc247;
         box-shadow: 0 0 15px #4dc247;
         transition: all 0.5s ease;
     }
-    .redes ul li .fa-whatsapp{
+    .redes ul li:hover .fa-whatsapp{
         color: #4dc247;
         text-shadow: 0 0 15px #4dc247;
         transition: all 0.5s ease;
