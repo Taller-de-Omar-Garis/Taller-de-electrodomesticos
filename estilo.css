@@ -556,6 +556,15 @@ h1 span{
         padding-bottom: 10px;
         display: flex;
     }
+    header {
+	display: flex;
+	height: 135px;
+	color: white;
+	background-color: black;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+    }
     nav li {
         display: inline-flex;
         height: 60px;
