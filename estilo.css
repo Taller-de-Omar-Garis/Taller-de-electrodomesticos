@@ -602,23 +602,26 @@ h1 span{
         z-index: -1;
     }
     .slider-frame {
-        width: 387px;
+        width: 317px;
         height: auto;
         margin:50px auto 0;
         overflow: hidden;
     }
     footer {
         width: 100%;
-        height: 700px;
+        height: 500px;
         background-color: black;
         color: white; 
         margin-top: 40px;
-        font-size: small;
+        font-size: xx-small;
+    }
+    .by{
+        margin-top: -60px;
     }
     .redes ul li{
-        width: 65px;
-        height: 65px;
-        line-height: 75px;
+        width: 60px;
+        height: 60px;
+        line-height: 65px;
         margin: 0 10px;
         text-align: center;
         cursor: pointer;
@@ -671,7 +674,7 @@ h1 span{
         font-weight: 500;
         background-color: #1A5276;
         border-radius: 10px;
-        padding: 80px 50px;
+        padding: 80px 30px;
         color: #fff;
         text-decoration: none;
     }
@@ -681,8 +684,8 @@ h1 span{
         font-weight: 500;
         background-color: #1A5276;
         border-radius: 10px;
-        padding: 80px 50px;
-        margin-left: 30px;
+        padding: 80px 30px;
+        margin-left: 15px;
         color: #fff;
         text-decoration: none;
     }
@@ -711,22 +714,22 @@ h1 span{
     }
     .redes ul .facebook-omar .fa{
         color: #3b5998;
-        margin-top: 10px;
+        margin-top: 13px;
         transition: all 0.5s ease;
     }
     .redes ul .instagram-omar .fa{
         color: #bc2a8d;
-        margin-top: 10px;
+        margin-top: 13px;
         transition: all 0.5s ease;
     }
     .redes ul .google-omar .fa{
         color: #dd4b39;
-        margin-top: 10px;
+        margin-top: 13px;
         transition: all 0.5s ease;
     }
     .redes ul .whatsapp-omar .fa{
         color: #4dc247;
-        margin-top: 10px;
+        margin-top: 13px;
         transition: all 0.5s ease;
     }
     
@@ -808,7 +811,7 @@ h1 span{
         width: 80%;
         margin: 50px auto 50px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
         gap: 30px;
     }
     .img-rep img{
@@ -831,7 +834,7 @@ h1 span{
         width: 80%;
         margin: 50px auto 50px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
         gap: 30px;
     }
     .video-container video{
