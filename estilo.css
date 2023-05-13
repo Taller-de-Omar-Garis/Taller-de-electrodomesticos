@@ -58,6 +58,12 @@ li a.active, li a:hover {
     border-radius: 50%;
     object-fit: cover;
 }
+.logopiolaomar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 .Contenido {
     display: flex;
     margin: 60px;
@@ -535,4 +541,315 @@ h1 span{
     color: #4dc247;
     text-shadow: 0 0 15px #4dc247;
     transition: all 0.5s ease;
+}
+@media (max-width:768px){
+    .Logo{
+        font-size: x-small;
+    }
+    .Logo img {
+        width: 150px;
+        height: 75px;
+        object-fit: cover;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+    }
+    nav li {
+        display: inline-flex;
+        height: 60px;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+        padding: 3px;
+        width: 100px;
+        font-size: small;
+    }
+    li a.active, li a:hover {
+        background-color: #1A5276; 
+        transition: .5s; 
+    }
+    .logopiola {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .contenedor-met{
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        width: 80%;
+        margin: 10px auto; 
+    }
+    .contenedor-met .titulo3{
+        font-size: 11px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        margin: 10px auto; 
+    }
+    .titulo3::before{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        background-color: black;
+        top: 50%;
+        z-index: -1;
+    }
+    .slider-frame {
+        width: 387px;
+        height: auto;
+        margin:50px auto 0;
+        overflow: hidden;
+    }
+    footer {
+        width: 100%;
+        height: 700px;
+        background-color: black;
+        color: white; 
+        margin-top: 40px;
+        font-size: small;
+    }
+    .redes ul li{
+        width: 65px;
+        height: 65px;
+        line-height: 75px;
+        margin: 0 10px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 5px solid #d8e2dc;
+        float: left;
+        transition: all 0.5s ease;
+    }
+    .redes ul li a{
+        background-color: transparent;
+    }
+    .redes ul li .fa{
+        color: #d8e2dc;
+        margin-top: 20px;
+        transition: all 0.5s ease;
+    }
+    .redes ul li.instagram{
+        border: 5px solid #bc2a8d;
+        box-shadow: 0 0 15px #bc2a8d;
+        transition: all 0.5s ease;
+    }
+    .redes ul li .fa-instagram{
+        color: #bc2a8d;
+        text-shadow: 0 0 15px #bc2a8d;
+        transition: all 0.5s ease;
+    }
+    .redes ul li.google{
+        border: 5px solid #dd4b39;
+        box-shadow: 0 0 15px #dd4b39;
+        transition: all 0.5s ease;
+    }
+    .redes ul li .fa-google{
+        color: #dd4b39;
+        text-shadow: 0 0 15px #dd4b39;
+        transition: all 0.5s ease;
+    }
+    .redes ul li.whatsapp{
+        border: 5px solid #4dc247;
+        box-shadow: 0 0 15px #4dc247;
+        transition: all 0.5s ease;
+    }
+    .redes ul li .fa-whatsapp{
+        color: #4dc247;
+        text-shadow: 0 0 15px #4dc247;
+        transition: all 0.5s ease;
+    }
+    .btn1{
+        font-size: 30px;
+        width: 30px;
+        font-weight: 500;
+        background-color: #1A5276;
+        border-radius: 10px;
+        padding: 80px 50px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .btn2{
+        font-size: 30px;
+        width: 30px;
+        font-weight: 500;
+        background-color: #1A5276;
+        border-radius: 10px;
+        padding: 80px 50px;
+        margin-left: 30px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .titulo4{
+        font-size: 11px;
+        text-align: center;
+        position: relative;
+        width: 80%;
+        margin: 50px auto; 
+    }
+    .titulo4::before{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        background-color: black;
+        top: 50%;
+        z-index: -1;
+    }
+    .logopiolaomar {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .redes ul .facebook-omar .fa{
+        color: #3b5998;
+        margin-top: 10px;
+        transition: all 0.5s ease;
+    }
+    .redes ul .instagram-omar .fa{
+        color: #bc2a8d;
+        margin-top: 10px;
+        transition: all 0.5s ease;
+    }
+    .redes ul .google-omar .fa{
+        color: #dd4b39;
+        margin-top: 10px;
+        transition: all 0.5s ease;
+    }
+    .redes ul .whatsapp-omar .fa{
+        color: #4dc247;
+        margin-top: 10px;
+        transition: all 0.5s ease;
+    }
+    
+    .redes ul .facebook-omar{
+        border: 5px solid #3b5998;
+        box-shadow: 0 0 15px #3b5998;
+        transition: all 0.5s ease;
+    }
+    .redes ul .fa-facebook-omar{
+        color: #3b5998;
+        text-shadow: 0 0 15px #3b5998;
+        transition: all 0.5s ease;
+    }
+    .redes ul .instagram-omar{
+        border: 5px solid #bc2a8d;
+        box-shadow: 0 0 15px #bc2a8d;
+        transition: all 0.5s ease;
+    }
+    .redes ul .fa-instagram-omar{
+        color: #bc2a8d;
+        text-shadow: 0 0 15px #bc2a8d;
+        transition: all 0.5s ease;
+    }
+    .redes ul .google-omar{
+        border: 5px solid #dd4b39;
+        box-shadow: 0 0 15px #dd4b39;
+        transition: all 0.5s ease;
+    }
+    .redes ul .fa-google-omar{
+        color: #dd4b39;
+        text-shadow: 0 0 15px #dd4b39;
+        transition: all 0.5s ease;
+    }
+    .redes ul .whatsapp-omar{
+        border: 5px solid #4dc247;
+        box-shadow: 0 0 15px #4dc247;
+        transition: all 0.5s ease;
+    }
+    .redes ul .fa-whatsapp-omar{
+        color: #4dc247;
+        text-shadow: 0 0 15px #4dc247;
+        transition: all 0.5s ease;
+    }
+    .titulo{
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        width: 80%;
+        margin: 50px auto; 
+    }
+    .titulo::before{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        background-color: black;
+        top: 50%;
+        z-index: -1;
+    }
+    .titulo2{
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        width: 80%;
+        margin: 50px auto; 
+    }
+    .titulo2::before{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        background-color: black;
+        top: 50%;
+        z-index: -1;
+    }
+    .img-rep{
+        width: 80%;
+        margin: 50px auto 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+        gap: 30px;
+    }
+    .img-rep img{
+        width: 100%;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .img-rep img:hover{
+        transform: scale(1);
+    }
+    .ful-img span{
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .video-container{
+        width: 80%;
+        margin: 50px auto 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+        gap: 30px;
+    }
+    .video-container video{
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .video-container video:hover{
+        transform: scale(1);
+    }
+    .container .popup-video video{
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        border-radius: 5px;
+        border: 3px solid #fff;
+        object-fit: cover;
+    }
 }
